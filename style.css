@@ -1,3 +1,51 @@
 body {
-    background: blue;
-  }
+    background-color: skyblue;
+}
+.nav-link {
+    background-color: aqua;
+    width: 99vw;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    left: 0;
+}
+.img {
+    width: 500px;
+    height: 350px;
+    margin-left: 35%;
+}
+h1 {
+    margin-top: 100px;
+    text-align: center;
+}
+.phase {
+    background-color: bisque;
+    width: 300px;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.courses {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: gray;
+    width: 99vw;
+    height: 100px;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: inside;
+    
+}
